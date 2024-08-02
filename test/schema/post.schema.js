@@ -1,0 +1,13 @@
+const POST = {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "id"
+  ]
+}

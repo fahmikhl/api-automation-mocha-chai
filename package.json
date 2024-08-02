@@ -1,0 +1,30 @@
+{
+  "name": "api-automation-mocha-chai",
+  "version": "1.0.0",
+  "description": "API automation using mocha x chai",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahmikhl/api-automation-mocha-chai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahmikhl/api-automation-mocha-chai/issues"
+  },
+  "homepage": "https://github.com/fahmikhl/api-automation-mocha-chai#readme",
+  "devDependencies": {
+    "axios": "^1.7.3",
+    "chai": "^5.1.1"
+  },
+  "dependencies": {
+    "ajv": "^4.11.8"
+  }
+}
