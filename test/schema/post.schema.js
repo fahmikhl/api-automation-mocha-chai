@@ -1,13 +1,12 @@
-export const SCHEMA_POST = {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Generated schema for Root",
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "number"
-    }
-  },
-  "required": [
-    "id"
-  ]
-}
+export const singlePostSchema = {
+    "title": "Single post schema",
+    "type": "object",
+    "properties": {
+        "id": {
+          "type": "number"
+        }
+    },
+    "required": [
+        "id"
+    ]
+};
