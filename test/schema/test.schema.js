@@ -12,7 +12,9 @@ export const singlePostSchema = {
 };
 
 export const singleGetSchema = {
+    "type": "array",
     "items": {
+        "type": "object",
         "required": [
             "userId",
             "id",
@@ -20,13 +22,21 @@ export const singleGetSchema = {
             "body"
         ],
         "properties": {
-            "userId": {},
-            "id": {},
-            "title": {},
-            "body": {}
+            "userId": {
+                "type": "integer"
+            },
+            "id": {
+                "type": "integer"
+            },
+            "title": {
+                "type": "string"
+            },
+            "body": {
+                "type": "string"
+            }
         }
     }
-};
+}
 
 export const getByIDSchema = {
     "type": "object",
